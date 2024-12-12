@@ -21,6 +21,7 @@ public class CollisionHandler : MonoBehaviour
 
     void Start()
     {
+    Debug.Log("Mustafadan Selamlar");
         rb = GetComponent<Rigidbody>();
         if (rb != null)
         {
